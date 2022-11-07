@@ -3,6 +3,8 @@
 
 variable "tenancy_ocid" {}
 variable "region" {}
+variable "private_ip_01" {}
+variable "private_ip_02" {}
 variable "ssh_public_key" {
   default = ""
 }
